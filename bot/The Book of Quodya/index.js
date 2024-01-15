@@ -6,6 +6,8 @@ client.once('ready', () => {
     console.log('Ready!')
 })
 
+client.login(token);
+
 var rquote = [
     "YES, SACRIFICES. I SAY WE SACRIFICE, UMMM HUTCH.",
     "EATING FOOD IS LIKE PLAYING THE GAME JENGA",
@@ -532,4 +534,3 @@ client.on('message', message => {
     }
 })
 
-client.login(token);
